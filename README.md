@@ -1,81 +1,19 @@
-# final_assignment
-tird assignment: controll of a mobile robot
+# assignment 1 RT2
+creat a html documentation for the final assignment of RT1, a jupyter notebook for the same exercise and a confrontation of performance between the first assignment of RT1 and the code wrote by the professor
 
 INSTALLATION
 ----
-To install this package clone the package in your ROS workspace and print catkin_make
+download in a ros workspace this package and press catkin_make
 
-LAUNCH FILES:
-----
-startproject.launch
----
-load a parameter by rosparam
+https://github.com/tommasodeangeli97/assignment1_rt2.git
 
-launch all the nodes by <include> and the root to the others launch files
+to open the jupyter notebook 
 
-instructions.launch
----
-launch the introduction node respawn="true" and launch-prefix="xterm-e"
-  
-printgoal.launch
----
-launch the move_base_client node respawn="true" and launch-prefix="xterm-e"
-  
-modetwo.launch
----
-launch the teleop_twist_keyboard node respawn="true" and launch-prefix="xterm-e"
-  
-modetrhee.launch
----
-launch the obstacles node respawn="true" and launch-prefix="xterm-e"
-  
+$jupyter notebook --allow-root --ip 0.0.0.0
 
-PYTHON FILES:
-----
-introduction.py
----
-start the node
-  
-gives the possibily to the user
-  
-takes the user input 
-  
-rospy.set_param() to change the parameter in the rosparameter server
-  
-move_base_client.py
----
-import actionlib and move_base_msgs.msg
-  
-in the main, using controll(), I controll if the parameter have the right value to use that node
-  
-result=movebase_client()
-  
-starting the client and wait the server
-  
-takes the inputs by the user
-  
-gives the goal
-  
-wait until the timeout duration the respons by the server
-  
-communicate to the user the output and gives the possibility to change the goals
-  
-obstacles.py
----
-import sensor_msgs.msg and geometry_msgs.msg
-  
-in the main controll() to watch the parameter
-  
-action()
-  
-in the action() I takes the callbacks to the velocity and the distance between the robot and the environment with watch()
-  
-start the publisher on cmd_vel, vel=Twist()
-  
-rospy.Rate(10) ten time in a second
+than open the folder assignment1_rt2 and inside open the notebook "assignment1_rt2.ipynb"
 
-confront the velocities and the distances
-  
-publish the velocities on cmd_vel and gives feedbacks to the user
-  
-rate.sleep
+in order to start, use the two differnt terminals to launch
+
+$roslaunch assignment1_rt2 simulation_gmapping.launch
+$roslaunch assignment1_rt2 move_base.launch
