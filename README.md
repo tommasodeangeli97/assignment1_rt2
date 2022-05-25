@@ -17,3 +17,12 @@ in order to start, use the two differnt terminals to launch
 
 $roslaunch assignment1_rt2 simulation_gmapping.launch
 $roslaunch assignment1_rt2 move_base.launch
+
+
+# HTML DOCUMENTATION
+----
+
+You can find the documentation created using Sphinx here
+
+https://tommasodeangeli97.github.io/assignment1_rt2/
+
