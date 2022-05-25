@@ -28,3 +28,4 @@ You can find the documentation created using Sphinx here
 
 https://tommasodeangeli97.github.io/assignment1_rt2/
 
+Or directly from the repository settings->pages and clicking on the link appearing on the right
