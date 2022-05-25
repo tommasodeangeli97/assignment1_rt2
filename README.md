@@ -18,6 +18,7 @@ than open the folder assignment1_rt2 and inside open the notebook "assignment1_r
 in order to start, use the two differnt terminals to launch
 
 $roslaunch assignment1_rt2 simulation_gmapping.launch
+
 $roslaunch assignment1_rt2 move_base.launch
 
 
