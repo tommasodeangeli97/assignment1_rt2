@@ -59,4 +59,4 @@ null hyp	6(10)		4(10)		6(10)
 deof	81					
 x^2	3,333333333		3,333333333		3,333	
 for the three the probaility of rejection the null hypotesis is between the 0.1 and the 0.05 that is not so significalnt, so i can't reject the null hypotesis						
-![image](https://user-images.githubusercontent.com/92479113/170596018-da881258-d512-49f9-91fa-79da85b22120.png)
+![image](https://user-images.githubusercontent.com/92479113/170596484-59b66aa9-380e-470c-a73a-cde2fd8115ca.png)
