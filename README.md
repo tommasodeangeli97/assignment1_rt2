@@ -30,5 +30,10 @@ You can find the documentation created using Sphinx here
 https://tommasodeangeli97.github.io/assignment1_rt2/
 
 Or directly from the repository settings->pages and clicking on the link appearing on the right
+
+# CONFRONTATION BETWEEN THE FIRST ASSIGNMENT FROM RT1 AND THE CODE WRITTEN BY THE PROFESSOR
+----
 					
-![image](https://user-images.githubusercontent.com/92479113/170596484-59b66aa9-380e-470c-a73a-cde2fd8115ca.png)
+![image](https://user-images.githubusercontent.com/92479113/170602226-38b0f4d0-d2d0-4e9f-ad34-9679a4c65179.png)
+
+
