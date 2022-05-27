@@ -38,7 +38,7 @@ Or directly from the repository settings->pages and clicking on the link appeari
 
 So we can observe that the code written by the professor is, under all points of wiev, better than the code written by me
 
-At this point i have taken in account the hypotesis Ha, the professor's code is faster than mine for the T-test; and for the Chi-Square test I have taken null hypotesis Ho
+At this point i have taken in account the hypotesis Ha, the professor's code is faster than mine for the T-test; and for the Chi-Square test I have taken null hypotesis Ho, the two codes are indipendent one from the other
 									
 ![image](https://user-images.githubusercontent.com/92479113/170603728-2feea46e-e6f5-42a4-8c01-34d2eb0f451e.png)
 
