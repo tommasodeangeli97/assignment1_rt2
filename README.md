@@ -48,3 +48,36 @@ At this point i have taken in account the hypotesis Ha, the professor's code is 
 
 Using Jupyter Notebook I emplemented a user interface for the control of a virtual robot in a room reusing the code that I wrote for the last assignment of RT1 
 
+# choosing the modality
+
+to the user is given the possibility of choosing between 4 modalities: 0-mod are the instructions tu use the code; 1-mod is the automatic reaching of a point giving the 2D coordinates; 2-mod is a manual control for the robot; 3-mod is a manual control of the robot with an avoid collisions skill implemented
+
+# modality zero
+
+is a simple print of the instruction for using the user interface
+
+# modality one
+
+using differents widgets I the user interface is completely interactable, enjoy following the instructions given on jupyter!
+
+# modality two
+
+using wigets type button is an implementation for substituting the teleop_twist_keyboard
+
+# modality three
+
+I reuse the same code wrote for the third modality of the precedent assignment adding the same structure of the second modality
+
+# ATTENTION
+
+the third modality and the second modality share some function (the VelocityCallback) and some global variables (linear, angular) so for using at best the two modality they has to be played both togeder
+
+# plot of trajectory and laser scan
+
+both of the plot are implemented in real time and they share the same class for plotting, as for the second and third modality is suggested to play those togeder, if the kernel result too busy there is the possibility of running the class and separately one plot or the other
+
+# plot of the reached or not reached positions
+
+this plot is created for having a visual proof of the accurancy for the first modality, the code will add on two fifferent global variable (rc, nrc) whenever the robot reach or doesn't reach the indicated point.
+the plot is not in real time so has to be rerunned every time the user want to see that for aving the adjurned values
+the globals variable are created in the first modality so for plotting this graf is mandatory running also the first modality
