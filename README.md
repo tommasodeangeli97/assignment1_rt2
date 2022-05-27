@@ -58,7 +58,7 @@ is a simple print of the instruction for using the user interface
 
 # modality one
 
-using differents widgets I the user interface is completely interactable, enjoy following the instructions given on jupyter!
+using differents widgets the user interface is completely interactable, enjoy following the instructions given on jupyter!
 
 # modality two
 
