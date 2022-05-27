@@ -43,3 +43,8 @@ At this point i have taken in account the hypotesis Ha, the professor's code is 
 ![image](https://user-images.githubusercontent.com/92479113/170603728-2feea46e-e6f5-42a4-8c01-34d2eb0f451e.png)
 
 
+# JUPYTER NOTEBOOK
+----
+
+Using Jupyter Notebook I emplemented a user interface for the control of a virtual robot in a room reusing the code that I wrote for the last assignment of RT1 
+
